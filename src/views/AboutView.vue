@@ -40,28 +40,28 @@
                   <div class="skill-item mb-4">
                       <h3 class="fs-6">Html</h3>
                       <div class="progress" style="height: p5x;">
-                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 1px high" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 1px high" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                           </div>
                       </div>
                   </div>
                   <div class="skill-item mb-4">
                       <h3 class="fs-6">CSS</h3>
                       <div class="progress" style="height: p5x;">
-                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 1px high" style="width: 68%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 1px high" style="width: 68%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                           </div>
                       </div>
                   </div>
                   <div class="skill-item mb-4">
                       <h3 class="fs-6">BootStrap</h3>
                       <div class="progress" style="height: p5x;">
-                          <div class="progress-bar bg progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 1px high" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 1px high" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                           </div>
                       </div>
                   </div>
                   <div class="skill-item mb-4">
                     <h3 class="fs-6">JavaScript</h3>
                     <div class="progress" style="height: p5x;">
-                        <div class="progress-bar bg progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 1px high" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example 1px high" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
                   </div>

@@ -1,9 +1,7 @@
 <template>
     <div class="container">
         <div class="avatar">
-          <a href="https://github.com/ManakiX">
-            <img src="https://i.postimg.cc/4yL9TCRv/DSC-3496.jpg" alt="Skytsunami" width="100%" height="100%">
-          </a>
+            <img src="https://i.postimg.cc/4yL9TCRv/DSC-3496.jpg" alt="Luntu" width="100%" height="100%">
         </div>
         <div class="content">
           <h1 id="soc">My Socials</h1>
