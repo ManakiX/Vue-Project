@@ -8,8 +8,6 @@
                     </div>
                 </div>
             </div>
-        
-    
             <div class="row">
                 <div class="container">
                     <div class="row d-flex flex-column flex-md-row">
@@ -60,10 +58,9 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-lg mb-4">
-                                                <textarea id="message" name="message" placeholder="Your message" class="form-control form-control-lg border-0"  ></textarea>
-                                            </div>
+                                            i<textarea id="message" name="message" placeholder="Your message" class="form-control form-control-lg border-0"  ></textarea>
                                         </div>
-                                    
+                                    </div>                                  
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <button type="submit" class="btn btn-info px-3">Send message</button>
@@ -77,8 +74,6 @@
             </div>
         </div>
     </section>
-    
-
 </template>
 
 <script>

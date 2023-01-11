@@ -17,6 +17,7 @@
               <li><router-link to ="/testimonials">Testimonials</router-link></li>
               <li><router-link to ="/socials">Socials</router-link></li>
               <li><router-link to ="/education">Education</router-link></li>
+              <li><router-link to ="/Resume">Resume</router-link></li>
             </ul>
           </div>
         </div>
