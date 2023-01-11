@@ -82,6 +82,12 @@
     }
 </script>
 
-<style>
+<style scoped>
+*::after
+::before{
+    margin: 0%;
+    padding: 0%;
+    ;
+}
 
 </style>

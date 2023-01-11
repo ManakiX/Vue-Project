@@ -1,7 +1,7 @@
 <template>
     <nav id="nav" class="navbar bg-light sticky-top shadow-sm">
         <div class="container-lg">
-          <img src="../assets/pngegg.png" alt="logo" width="30" height="30px" >
+          <img class="logo" src="../assets/pngegg.png" alt="logo" width="30" height="30px" >
           <a class="navbar-brand text-black fw-bold fs-4" href="#">RSA</a>
           <div class="dropdown">
             <button class="btn btn-secondary btn-dark px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -25,11 +25,14 @@
 </template>
 
 <style>
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");;
 .home-img img{
     border-radius: 50%;
     height: 22rem;
     width: 22rem;
+}
+.logo{
+    height: 30px;
 }
 h1{
     color: purple !important;
