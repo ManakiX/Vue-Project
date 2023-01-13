@@ -43,7 +43,7 @@
   }
   
   nav a.router-link-exact-active {
-    color: #D3D3D3;
+    color: purple;
   }
   .dropdown-menu{
     padding: 0.25rem
