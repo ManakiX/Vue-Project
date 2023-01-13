@@ -64,6 +64,11 @@ export default {
                     projectName: "Simple Website",
                     projectImage: "https://i.postimg.cc/FsmnHcCS/Simple-Website.png",
                     demoLink:"https://2ndweekrevision.netlify.app/",
+                },
+                {
+                    projectName: "Calculator",
+                    projectImage: "...",
+                    demoLink:"https://luntucalculator.netlify.app/",
                 }
             ]
         }

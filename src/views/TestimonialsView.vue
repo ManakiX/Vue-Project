@@ -1,5 +1,6 @@
 <template>
-    <!-- <section id="testimonial">
+    <!-- <div>
+    <section id="testimonial">
         <div class="container-lg">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -60,12 +61,23 @@
                     <p class="test card-text">Luntu is a serious & fun individual who enjoys learning and exploring different things. He enthusiasm into his work allows him to be creative with the littlest of things, and never seems to fail to make the environment quite lively. You won't regret having him as part of your team.</p>
                 </div>
             </div>
+        </div> -->
+        <div v-for="testimonial in testimonialsArray" :key="testimonial">
+            <div class="card" style="width: 18rem;">
+                <img :src=testimonial.image class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-title">{{testimonial.name}}</p>
+                  <p class="card-job">{{testimonial.occupation}}</p>
+                  <p class="card-text">{{testimonial.testimonial}}</p>
+                </div>
+              </div>
+
         </div>
         <footer>
             Copyright &copy;2022
           </footer>
-    </section> -->
-
+      <!-- https://console.firebase.google.com/project/luntuvueportfolio/overview
+      Hosting URL: https://luntuvueportfolio.web.app -->
 </template>
 
 <script>
@@ -107,11 +119,13 @@ export default {
         }
     }
 }
-
-
 </script>
 
 
 <style scoped>
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 </style>
