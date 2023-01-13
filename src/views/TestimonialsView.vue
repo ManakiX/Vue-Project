@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row justify-content-around">
+            <div class="row justify-content-around ">
                 <div v-for="testimonial in testimonialsArray" class="col-4" :key="testimonial">
                     <div class="card mx-auto" style="width: 18rem;">
                         <img :src=testimonial.image class="card-img-top p-5"  alt="...">
@@ -142,7 +142,14 @@ export default {
     font-size: large;
     font-weight: bold;
   }
-  .card-body{
-        
+  .card{
+    width: 100%;
+    padding: 9px 20px 9px 20px;
+    margin-bottom: 1rem;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #dfdfdf;
+    box-sizing: border-box;
+    height: 100% !important;
+    display: flex;
   }
 </style>
