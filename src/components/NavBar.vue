@@ -43,11 +43,14 @@
   }
   
   nav a.router-link-exact-active {
-    color: #42b983;
+    color: #D3D3D3;
   }
-
-
-
+  .dropdown-menu{
+    padding: 0.25rem
+  }
+.dropdown-menu :hover{
+    background-color: #D3D3D3;
+}
 </style>
 
 <script>
