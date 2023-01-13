@@ -62,20 +62,30 @@
                 </div>
             </div>
         </div> -->
-        <div v-for="testimonial in testimonialsArray" :key="testimonial">
-            <div class="card" style="width: 18rem;">
-                <img :src=testimonial.image class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-title">{{testimonial.name}}</p>
-                  <p class="card-job">{{testimonial.occupation}}</p>
-                  <p class="card-text">{{testimonial.testimonial}}</p>
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h1 class="fw-bold mb-5">Testimonials</h1>
+                    </div>
                 </div>
-              </div>
-
+            </div>
         </div>
-        <footer>
-            Copyright &copy;2022
-          </footer>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div v-for="testimonial in testimonialsArray" class="col-4" :key="testimonial">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img :src=testimonial.image class="card-img-top p-5"  alt="...">
+                        <div class="card-body">
+                        <p class="card-name">{{testimonial.name}}</p>
+                        <p class="card-occupation">{{testimonial.occupation}}</p>
+                        <p class="card-text">{{testimonial.testimonial}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
       <!-- https://console.firebase.google.com/project/luntuvueportfolio/overview
       Hosting URL: https://luntuvueportfolio.web.app -->
 </template>
@@ -127,5 +137,12 @@ export default {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  }
+  .card-name{
+    font-size: large;
+    font-weight: bold;
+  }
+  .card-body{
+        
   }
 </style>
