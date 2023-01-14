@@ -1,13 +1,19 @@
 <template>
     <div>
-        <div v-for="project in projectsArray" :key="projects">
-            <div class="card" style="width: 18rem;">
-                <img :src=project.projectImage class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">{{project.projectName}}</h5>
-                  <a :href=project.demoLink class="btn btn-primary">Demo</a>
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="row justify-content-around" >
+                    <div v-for="project in projectsArray" class="col-4 my-4" :key="projects">
+                        <div class="card" style="width: 18rem;">
+                            <img :src=project.projectImage class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{project.projectName}}</h5>
+                              <a :href=project.demoLink class="btn btn-primary">Live Demo</a>
+                            </div>
+                          </div>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
     </div>
 </template>
@@ -48,6 +54,29 @@ export default {
     }
 }
 </script>
-<style lang="">
-    
+<style scoped>
+.card-name{
+    font-size: large;
+    font-weight: bold;
+  }
+  .row {
+      margin-bottom: 5rem;
+
+  }
+  .card{
+    width: 100%;
+    padding: 9px 20px 9px 20px;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #dfdfdf;
+    box-sizing: border-box;
+    height: 100% !important;
+  }
+  @media screen and (max-width: 994px) {
+    .row {
+      width: 100%;
+      display: block;
+      margin-bottom: 50px;
+    }
+  }
+
 </style>

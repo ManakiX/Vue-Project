@@ -10,7 +10,7 @@
         </div>
         <div class="container">
             <div class="row justify-content-around ">
-                <div v-for="testimonial in testimonialsArray" class="col-4" :key="testimonial">
+                <div v-for="testimonial in testimonialsArray" class="col-4 my-4" :key="testimonial">
                     <div class="card mx-auto" style="width: 18rem;">
                         <img :src=testimonial.image class="card-img-top p-5"  alt="...">
                         <div class="card-body">
