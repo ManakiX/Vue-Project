@@ -34,12 +34,19 @@
                         <h2 class="text-capitalized fs-5 my-2">Simple Website</h2>
                         <p class="mb4"><a href="https://2ndweekrevision.netlify.app/" target="_blank"  class="text-info text-decoration-none">Live Demo</a></p>
                     </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="projects-item"></div>
+                        <img src="https://i.postimg.cc/gcZ67Tnz/Calculator.jpg" class="w-100 img-thumbnail" alt="projects-item">
+                        <h2 class="text-capitalized fs-5 my-2">Calculator</h2>
+                        <p class="mb4"><a href="https://luntucalculator.netlify.app/" target="_blank"  class="text-info text-decoration-none">Live Demo</a></p>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
 </template>
 <script>
+
 export default {
     name: 'projects',
     data(){
@@ -67,7 +74,7 @@ export default {
                 },
                 {
                     projectName: "Calculator",
-                    projectImage: "...",
+                    projectImage: "https://i.postimg.cc/gcZ67Tnz/Calculator.jpg",
                     demoLink:"https://luntucalculator.netlify.app/",
                 }
             ]
