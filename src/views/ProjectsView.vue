@@ -42,6 +42,20 @@
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row justify-content-around ">
+                    <div v-for="project in projectsArray" class="col-4" :key="project">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img :src=project.projectImage class="card-img-top p-5"  alt="...">
+                            <div class="card-body">
+                            <p class="card-name">{{project.projectName}}</p>
+                            <!-- <p class="card-occupation">{{project.pro}}</p> -->
+                            <p class="card-text">{{testimonial.demoLink}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </template>
